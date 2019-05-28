@@ -1,0 +1,6 @@
+使用Reptile.py从百度图片中爬取图片，
+使用Data_Pretreatment.py筛选出异常图片，
+模型选用了inception-v3，
+使用retrain.bat文件执行tensorflow的retrain.py脚本进行迁移学习训练模型，
+最后得到output_graph.pb模型和output_labels.txt描述文件，
+将模型放到flask搭建的后台中运行
